@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Card from './Card/Card';
+import Card from './components/Card/Card';
 import cardItemsArr from './cardItemsArr';
 
 function App() {
