@@ -72,6 +72,7 @@ img {
 @media (min-width: 768px) {
   .Main-section {
     grid-template-columns: repeat(2, 1fr);
+    padding: var(--spacing-x4);
   }
 }
 
