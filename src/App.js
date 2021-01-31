@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Header';
+import Card from './Card/Card';
 
 function App() {
   return (
@@ -8,9 +9,7 @@ function App() {
       <Header />
 
       <main className="Main-section">
-        <p>Grid 1</p>
-        <p>Grid 2</p>
-        <p>Grid 3</p>
+        <Card />
       </main>
 
     </div>
