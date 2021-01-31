@@ -18,13 +18,22 @@
 }
 
 .Category {
-  color: #000;
+  color: var(--grey);
+  font-size: var(--font-size-small);
+  font-weight: bold;
+  margin-top: 0;
+  text-transform: uppercase;
 }
 
 .Heading {
-  color: #000;
+  font-size: var(--font-size-large);
+}
+
+.TextOnly .Heading {
+  font-size: var(--font-size-x-large);
 }
 
 .Location {
-  color: #000;
+  color: var(--grey);
+  font-size: var(--font-size-medium);
 }

@@ -34,7 +34,15 @@
 :root {
   /* colours */
   --main-color: #062031;
+  --grey: #5d696e;
   --border-color: #e9eaeb;
+
+  /* font sizes */
+  --font-size-small: .8rem;
+  --font-size-default: 1rem;
+  --font-size-medium: 1.25rem;
+  --font-size-large: 1.8rem;
+  --font-size-x-large: 2.2rem;
 
   /* spacing */
   --spacing: .5rem;
