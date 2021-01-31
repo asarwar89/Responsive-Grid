@@ -1,5 +1,9 @@
 .Card {
-  color: #000;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .Banner {
@@ -7,7 +11,10 @@
 }
 
 .Contents {
-  color: #000;
+  color: var(--main-color);
+  padding: var(--spacing-x3);
+  padding-bottom: var(--spacing-x8);
+  text-align: left;
 }
 
 .Category {

@@ -31,6 +31,22 @@
   }
 }
 
+:root {
+  /* colours */
+  --main-color: #062031;
+  --border-color: #e9eaeb;
+
+  /* spacing */
+  --spacing: .5rem;
+  --spacing-x2: 1rem;
+  --spacing-x3: 1.5rem;
+  --spacing-x4: 2rem;
+  --spacing-x8: 4rem;
+
+  /* other */
+  --border-radius: .5rem;
+}
+
 img {
   max-width: 100%;
 }
