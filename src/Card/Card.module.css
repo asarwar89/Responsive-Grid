@@ -6,6 +6,12 @@
   text-decoration: none;
 }
 
+.Card:hover,
+.Card:focus {
+  opacity: .9;
+  box-shadow: var(--box-shadow);
+}
+
 .Contents {
   color: var(--main-color);
   padding: var(--spacing-x3);

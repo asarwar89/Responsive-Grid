@@ -53,6 +53,7 @@
 
   /* other */
   --border-radius: .5rem;
+  --box-shadow: 2px 2px 5px var(--grey);
 }
 
 img {
