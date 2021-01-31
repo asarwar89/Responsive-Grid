@@ -10,11 +10,15 @@ const Card = ({
   return (
     <div className={styles.Card}>
 
-      {image && <img src={image} alt={heading} />}
+      {image && <img className={styles.Banner} src={image} alt={heading} />}
 
-      <p>{category}</p>
-      <p>{heading}</p>
-      <p>{location}</p>
+      <div className={styles.Contents}>
+
+        <p className={styles.Category}>{category}</p>
+        <h1 className={styles.Heading}>{heading}</h1>
+        <p className={styles.Location}>{location}</p>
+
+      </div>
       
     </div>
   );
