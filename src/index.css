@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  /* colours */
+  --main-color: #062031;
+  --grey: #5d696e;
+  --border-color: #e9eaeb;
+
+  /* font sizes */
+  --font-size-small: .8rem;
+  --font-size-default: 1rem;
+  --font-size-medium: 1.25rem;
+  --font-size-large: 1.8rem;
+  --font-size-x-large: 2.2rem;
+
+  /* spacing */
+  --spacing: .5rem;
+  --spacing-x2: 1rem;
+  --spacing-x3: 1.5rem;
+  --spacing-x4: 2rem;
+  --spacing-x8: 4rem;
+
+  /* other */
+  --border-radius: .5rem;
+  --box-shadow: 2px 2px 5px var(--grey);
+}
