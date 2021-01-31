@@ -8,7 +8,11 @@ const Card = ({
 }) => {
 
   return (
-    <div className={`${styles.Card} ${image ? styles.HasImage : styles.TextOnly}`}>
+    <a 
+      className={`${styles.Card} ${image ? styles.HasImage : styles.TextOnly}`}
+      href="https://www.google.com.au/"
+      target="_blank"
+      rel="noreferrer">
 
       {image && <img className={styles.Banner} src={image} alt={heading} />}
 
@@ -20,7 +24,7 @@ const Card = ({
 
       </div>
       
-    </div>
+    </a>
   );
 
 }
