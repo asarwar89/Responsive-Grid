@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header';
 import Card from './Card/Card';
+import cardItemsArr from './cardItemsArr';
 
 function App() {
   return (
@@ -9,7 +10,12 @@ function App() {
       <Header />
 
       <main className="Main-section">
-        <Card />
+        {cardItemsArr.map((item, index) => (
+          <Card
+            key={index} 
+            {...item}
+          />
+        ))}
       </main>
 
     </div>

@@ -31,6 +31,10 @@
   }
 }
 
+img {
+  max-width: 100%;
+}
+
 .Main-section {
   display: grid;
   grid-auto-rows: 1fr;
