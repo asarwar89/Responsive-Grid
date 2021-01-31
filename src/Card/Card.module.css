@@ -1,8 +1,8 @@
 .Card {
+  border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   text-decoration: none;
 }
 
@@ -19,7 +19,6 @@
 }
 
 .HasImage .Contents {
-  border: 1px solid var(--border-color);
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
   border-top: none;
@@ -27,7 +26,6 @@
 }
 
 .TextOnly {
-  border: 1px solid var(--border-color);
   justify-content: center;
 }
 
@@ -50,4 +48,21 @@
 .Location {
   color: var(--grey);
   font-size: var(--font-size-medium);
+}
+
+.BannerBox {
+  padding-bottom: calc((100% + 2px) * .75);
+  position: relative;
+  width: calc(100% + 2px);
+}
+
+.BannerBox .Banner {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  height: 100%;
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: 100%;
 }

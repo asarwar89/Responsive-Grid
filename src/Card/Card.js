@@ -14,7 +14,11 @@ const Card = ({
       target="_blank"
       rel="noreferrer">
 
-      {image && <img className={styles.Banner} src={image} alt={heading} />}
+      {image && 
+        <div className={styles.BannerBox}>
+          <img className={styles.Banner} src={image} alt={heading} />
+        </div>
+      }
 
       <div className={styles.Contents}>
 
