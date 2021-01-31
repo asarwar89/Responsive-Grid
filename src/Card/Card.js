@@ -8,7 +8,7 @@ const Card = ({
 }) => {
 
   return (
-    <div className={styles.Card}>
+    <div className={`${styles.Card} ${image ? styles.HasImage : styles.TextOnly}`}>
 
       {image && <img className={styles.Banner} src={image} alt={heading} />}
 
