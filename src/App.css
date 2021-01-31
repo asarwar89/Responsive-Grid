@@ -62,10 +62,10 @@ img {
 .Main-section {
   display: grid;
   grid-auto-rows: 1fr;
-  grid-gap: 20px;
+  grid-gap: var(--spacing-x4);
   margin: 0 auto;
   max-width: 1080px;
-  padding: 1.5rem;
+  padding: var(--spacing-x3);
 }
 
 @media (min-width: 768px) {
